@@ -14,7 +14,10 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+<<<<<<< HEAD
 
+=======
+>>>>>>> hello
       - name: Set up python
         uses: actions/setup-python@v5
         with:
@@ -23,7 +26,11 @@ jobs:
       - name: Install depencies
         run: pip install -r requirement.txt
         
+<<<<<<< HEAD
       - name: Run PR Review Bot
+=======
+      - name: Run PR Review Botasdf
+>>>>>>> hello
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

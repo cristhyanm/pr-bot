@@ -1,7 +1,7 @@
 from wsgiref import headers
 
 from google import genai
-from pydantic import BaseModel, Field  # type: ignore[import-not-found]
+from pydantic import BaseModel, Field  
 from typing import List, Literal
 import os
 import requests
